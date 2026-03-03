@@ -12,7 +12,7 @@ desconto = int(input("Disconto:"))
 numDescendentes = int(input("Número de descendentes:"))
 
 salatioBruto = horasFeitas*dinheiroPorHora
-salarioLiquido = salatioBruto - (salatioBruto*desconto/100) + numDescendentes*100
+salarioLiquido = salatioBruto - (salatioBruto*desconto/100) + (numDescendentes*100)
 
 print("Salário final:", salarioLiquido)
 
